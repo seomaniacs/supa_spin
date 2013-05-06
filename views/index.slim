@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Supa'Spin
+    link rel="stylesheet" type="text/css" href="/assets/application.css"
+  body
+    div class="m-spinning"
+      form action="/create" method="post" class="m-spinning-form"
+        textarea name="content" cols="50" rows="20"
+        input type="text" name="max_count" placeholder="Nombre de résultats"
+        input type="text" name="max_characters" placeholder="Nombre caractères maximum"
+        input type="submit" class="m-spinning-form--creation"
+
+      div class="m-spinning-list"
+
+      script type="text/javascript" src="/assets/application.js"

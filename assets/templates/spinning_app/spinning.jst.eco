@@ -1,0 +1,4 @@
+<dl>
+  <dt>Nombre de mots: <%= @model.characters_count %></dt>
+  <dd> <%= @model.text %></dd>
+</dl>

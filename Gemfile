@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'coffee-script'
+gem 'content_spinning'
+gem 'eco'
+gem 'sass'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'slim'
+gem 'sprockets'
